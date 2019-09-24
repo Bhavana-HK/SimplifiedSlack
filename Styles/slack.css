@@ -1,0 +1,54 @@
+body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+.wrapper{
+    display: flex;
+    align-items: stretch;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(231, 231, 231);
+    border-color: black;
+    border: 2px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+.message {
+    border: 1px solid #007bff;
+}
+
+.messageContent{
+    flex:1;
+}
+
+/* .messages li {
+    list-style: none;
+    margin-right: 30px;
+} */
+
+/* #displayMessage {
+    overflow-y:"auto" !important;
+} */
+
+/* .wrapper {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 100%;
+}
+
+.content {
+    /* max-height: 200px; 
+    overflow: auto;
+} */
